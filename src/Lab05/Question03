@@ -43,6 +43,7 @@ Question 03 (b) – Class Identification Using Five Rules
 ## Noun Classification:
 
 | Noun | Decision | Reason |
+|---|---|---|
 | Online Bookshop | Rejected | System context |
 | Product | Accepted | Main entity |
 | Book | Accepted | Product subclass |
