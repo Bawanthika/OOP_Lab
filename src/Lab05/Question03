@@ -1,0 +1,90 @@
+Question 03 (a) – Potential Nouns
+
+1. Online Bookshop
+2. Product
+3. Book
+4. Magazine
+5. CD
+6. Price
+7. Title
+8. Author
+9. Number of Pages
+10. Artist
+11. Type
+12. Customer
+13. Registered Customer
+14. Order
+15. Shipment
+16. Store
+17. Personal Customer
+18. Business Customer
+19. Payment
+20. Delivery
+21. Invoice
+22. Credit Card
+23. Credit Card Details
+24. Registration
+25. Contact Information
+26. Personal Information
+27. Authentication
+28. Report
+29. Product Information
+
+Question 03 (b) – Class Identification Using Five Rules
+
+## Five Rules Used:
+
+1. Redundant Classes – Remove nouns that represent the same concept.
+2. Attribute Classes – Remove nouns that represent properties of other classes.
+3. Irrelevant Classes – Remove nouns outside the system scope or unnecessary implementation details.
+4. Vague Classes – Remove nouns that do not represent clearly defined objects.
+5. Operation Classes – Remove nouns that represent actions rather than independent entities.
+
+## Noun Classification:
+
+| Noun | Decision | Reason |
+| Online Bookshop | Rejected | System context |
+| Product | Accepted | Main entity |
+| Book | Accepted | Product subclass |
+| Magazine | Accepted | Product subclass |
+| CD | Accepted | Product subclass |
+| Price | Rejected | Attribute |
+| Title | Rejected | Attribute |
+| Author | Rejected | Attribute |
+| Number of Pages | Rejected | Attribute |
+| Artist | Rejected | Attribute |
+| Type | Rejected | Attribute |
+| Customer | Accepted | Main entity |
+| Registered Customer | Rejected | Redundant |
+| Order | Accepted | Main entity |
+| Shipment | Accepted | Main entity |
+| Store | Rejected | Redundant |
+| Personal Customer | Accepted | Customer subclass |
+| Business Customer | Accepted | Customer subclass |
+| Payment | Accepted | Main entity |
+| Delivery | Rejected | Operation represented by Shipment |
+| Invoice | Accepted | Main entity |
+| Credit Card | Accepted | Payment entity |
+| Credit Card Details | Rejected | Attribute |
+| Registration | Rejected | Operation |
+| Contact Information | Rejected | Attribute |
+| Personal Information | Rejected | Attribute |
+| Authentication | Rejected | Operation |
+| Report | Accepted | Main entity |
+| Product Information | Rejected | Attribute |
+
+## Final Selected Classes:
+
+1. Product
+2. Book
+3. Magazine
+4. CD
+5. Customer
+6. PersonalCustomer
+7. BusinessCustomer
+8. Order
+9. Shipment
+10. Payment
+11. Invoice
+12. CreditCard
+13. Report
